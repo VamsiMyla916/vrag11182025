@@ -1,0 +1,17 @@
+# Server
+fastapi
+uvicorn[standard]
+python-dotenv
+httpx
+ollama
+
+# Client
+streamlit
+requests
+
+# Ingestion & RAG
+langchain-unstructured  # <-- UPDATED from unstructured[md,txt]
+langchain-text-splitters
+chromadb
+sentence-transformers
+python-magic-bin        # <-- Make sure this is still here from the last fix

@@ -1,0 +1,52 @@
+# --- Python Specific ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+*.po
+*.mo
+
+# Environments
+.venv
+venv/
+env/
+/venv
+/env
+
+# IDEs
+.vscode/
+.idea/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and Data ---
+*.log
+*.sqlite
+*.db
+
+# --- RAG / ChromaDB Specific ---
+# The local database files created by ChromaDB
+db/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints
+
+# --- Models and Caches ---
+# Files downloaded by sentence-transformers or other model libraries
+.cache/
+.st_cache/
+.streamlit/
+/models
+
+# --- Streamlit Specific ---
+# Streamlit internal files and caches
+cache/
