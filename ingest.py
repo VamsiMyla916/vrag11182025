@@ -4,18 +4,18 @@ from langchain_community.document_loaders import UnstructuredFileLoader  # <- FI
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# --- Configuration ---
+#  Configuration 
 ROOT_DIR = "."  # Start scanning from the project root
 DB_DIR = "db"   # Where to save the DB
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
-# --- NEW: Define what to ingest ---
+# Define what to ingest 
 ALLOWED_EXTENSIONS = [".py", ".md", ".txt"]
 IGNORE_DIRECTORIES = ["venv", "__pycache__", "db", ".git", "client", "rag_server"]
 
-# --- NEW: Updated document loader ---
+#  Document loader 
 def load_documents(root_dir):
     """Loads all allowed files from the root directory, skipping ignored ones."""
     documents = []

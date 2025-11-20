@@ -10,8 +10,8 @@ streamlit
 requests
 
 # Ingestion & RAG
-langchain-unstructured  # <-- UPDATED from unstructured[md,txt]
+langchain-unstructured  
 langchain-text-splitters
 chromadb
 sentence-transformers
-python-magic-bin        # <-- Make sure this is still here from the last fix
+python-magic-bin       
